@@ -1,4 +1,4 @@
-package com.example.pizzareceiver;
+package com.example.pizzareceiver.applicationController;
 
 import java.util.List;
 
