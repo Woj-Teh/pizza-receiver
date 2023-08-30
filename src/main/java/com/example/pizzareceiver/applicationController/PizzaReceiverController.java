@@ -23,7 +23,7 @@ public class PizzaReceiverController {
     public ResponseEntity<String> receivePizza(@RequestBody Pizza pizza) throws InterruptedException {
         // Simulate a delay (e.g., 5 seconds) 50% of the time
         if (new Random().nextBoolean()) {
-            TimeUnit.SECONDS.sleep(10);
+//            TimeUnit.SECONDS.sleep(10);
         }
         logger.info("Received pizza:");
         logger.info(pizza.getName() + " - " + pizza.getIngredients() + " - " + pizza.getPrice() + " PLN");
