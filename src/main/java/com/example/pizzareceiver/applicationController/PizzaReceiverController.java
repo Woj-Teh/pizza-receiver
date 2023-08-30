@@ -25,7 +25,7 @@ public class PizzaReceiverController {
 //        if (new Random().nextBoolean()) {
 //            TimeUnit.SECONDS.sleep(10);
 //        }
-        TimeUnit.SECONDS.sleep(10);
+//        TimeUnit.SECONDS.sleep(10);
         logger.info("Received pizza:");
         logger.info(pizza.getName() + " - " + pizza.getIngredients() + " - " + pizza.getPrice() + " PLN");
         return ResponseEntity.ok("Pizza received successfully!");
